@@ -1,0 +1,31 @@
+JaceWalker_Ch1_PE1
+Name: Jace Walker  
+Date Created: 1/24/25
+
+Program Description: 
+This program replicates selling movie tickets at a cinema. Each buyer can buy up to 4 tickets. No more than 20 tickets can be sold total. Displays total amount of buyers after tickets run out.
+
+Functions used in the Program (list in order as they are called):
+1. Function Name: sell (purchased_tickets)
+     Description: checks user’s input of purchased tickets and ‘sells’ them to user
+     Parameters: (purchased_tickets) : this parameter is the user’s input to how many tickets they would like to purchase. 
+     Variables: ‘buyer_total’: running total of buyers, 
+		‘ticket_limit’ : limit of tickets that can be sold, begins at 20
+     Logical Steps: checks if tickets purchased is 1-4, then takes appropriate action
+     Returns: buyer_total, ticket_limit
+
+2. Function Name: main  
+     Description: contains while loop that calls sell() function  
+     Parameters: none
+     Variables: user_input : is how many tickets user wants to purchase
+     Logical Steps: while loop that runs until ticket limit reaches zero 
+                                If statement checks if user input is over the limit or over 4
+			Calls sell function
+   			Prints cosmetic stuff
+     Returns: None
+
+Logical Steps:
+1.	Main()
+2.	    Sell(purchased_tickets) 
+
+Link to your repository: https://github.com/jace-walker/COP2073/blob/master/JaceWalker_Ch1_PE1.py
